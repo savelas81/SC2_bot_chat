@@ -3,8 +3,8 @@ Chat add on for bots playing SC2
 
 This add on is made to reply to chat messages that bot sees on ladder games.
 It saves every chat message from enemy.
-Messages will be saved in data/messages.json file
-To add replies for saved messages replace ----- with your reply
+Messages will be saved in data/messages.json file.
+To add replies for saved messages replace ----- with your reply.
 Bot replies after amount of iterations in self.chat_delay (chat_messages.py) since enemy LAST chat message.
 
         DO NOT INSULT ANYONE WITH YOUR CHAT MESSAGES!!!
