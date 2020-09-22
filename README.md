@@ -7,7 +7,7 @@ Messages will be saved in data/messages.json file
 To add replies for saved messages replace ----- with your reply
 Bot replies after amount of iterations in self.chat_delay (chat_messages.py) since enemy LAST chat message.
 
-	DO NOT INSULT ANYONE WITH YOUR CHAT MESSAGES!!!
+        DO NOT INSULT ANYONE WITH YOUR CHAT MESSAGES!!!
         Humans have feelings but bots don't.
         At least for now.
 
@@ -29,7 +29,7 @@ __init__
 __on_step__
 
 	response = self._chat_data.find_response(opponent_chat_data=self.state.chat, my_id_from_proto = self.player_id)
-    	if response:
+	if response:
         	await self._client.chat_send(response, team_only=False)
 
 STEP 3:
@@ -39,7 +39,7 @@ STEP 4:
 Download data directory from ladder.
 
 STEP 5:
-replace ----- with your replies.
+replace ----- in messages.json file with your replies.
 	(----- = no response)
 
 STEP 6:
