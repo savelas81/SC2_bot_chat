@@ -39,7 +39,7 @@ STEP 4:
 Download data directory from ladder.
 
 STEP 5:
-replace ----- with your replies.
+replace ----- in messages.json file with your replies.
 	(----- = no response)
 
 STEP 6:
