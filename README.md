@@ -2,9 +2,10 @@
 Chat add on for bots playing SC2
 
 This add on is made to reply to chat messages that bot sees on ladder games.
-It saves every chat message from enemy bot.
-Messages will be saved in data/messages.dat file
-Picle is used to prevent users from corrupting data file.
+It saves every chat message from enemy.
+Messages will be saved in data/messages.json file
+To add replies for saved messages replace ----- with your reply
+Bot replies after amount of iterations in self.chat_delay (chat_messages.py) since enemy LAST chat message.
 
         DO NOT INSULT ANYONE WITH YOUR CHAT MESSAGES!!!
         Humans have feelings but bots don't.
@@ -33,13 +34,14 @@ STEP 3:
 Upload yor bot to ladder and let it run few days
 
 STEP 4:
-Download data directory from ladder and save it on your bots local data directory.
+Download data directory from ladder.
 
 STEP 5:
-Run chat.bat file and follow instructions
+replace ----- with your replies.
+	(----- = no response)
 
 STEP 6:
-ZIP your all your data directory content!
+ZIP all data directory content!
 
 STEP 7:
 Upload your zip file on ladder and enjoy "intelectual" bot conversations.
@@ -47,3 +49,6 @@ Upload your zip file on ladder and enjoy "intelectual" bot conversations.
 Repeat steps 4 to 7 when you want add new responses.
 
 Smileware :D
+
+Use at your own risk.
+I'm not taking any responsibility for damaged software, hardware or feelings.
