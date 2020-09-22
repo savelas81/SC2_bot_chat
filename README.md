@@ -15,7 +15,7 @@ Bot replies after amount of iterations in self.chat_delay (chat_messages.py) sin
 Installation and usage:
 
 STEP 1:
-Copy all files in your bot root directory.
+Copy chat_messages.py in your bot root directory.
 
 STEP 2:
 Add following lines to your bot:
