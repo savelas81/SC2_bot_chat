@@ -34,14 +34,14 @@ class ChatData:
 
     def saveData(self):
         try:
-            with open('data\messages.json', 'w') as file:
+            with open('data/messages.json', 'w') as file:
                 json.dump(self.chat_messages, file, indent=2)
         except (OSError, IOError) as e:
             print(str(e))
 
     def loadData(self):
         try:
-            with open('data\messages.json', 'r') as file:
+            with open('data/messages.json', 'r') as file:
                 self.chat_messages = json.load(file)
         except (OSError, IOError) as e:
             self.chat_messages = {"Enemy message": "My response"}
@@ -79,5 +79,3 @@ class ChatData:
                     self.response = response
                     self.chat_timer = self.chat_delay
                     return None
-            print("response return error.")
-            return None
